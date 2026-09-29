@@ -1,1 +1,18 @@
 
+app = "redius366"
+
+
+
+[[services]]
+
+  internal_port = 1812
+
+  protocol = "udp"
+
+
+
+  [[services.ports]]
+
+    port = 1812
+
+
